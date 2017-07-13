@@ -1,0 +1,22 @@
+{
+  "name": "react-structure-app",
+  "version": "2.0.2",
+  "description": "reqct类前端项目初始化工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redux",
+    "react",
+    "react-router",
+    "webpack",
+    "webpack-dev-server"
+  ],
+  "bin": {
+    "react-structure-app": "bin/initial.js"
+  },
+  "author": "huoxu_huoxu",
+  "email": "530607199@qq.com",
+  "license": "ISC"
+}
