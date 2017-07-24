@@ -47,7 +47,7 @@ const MAIN = async  () => {
         return ;
     }
     let gitPath = `${sName}/.git`;
-    if(fs.exists(gitPath)){
+    if(fs.existsSync(gitPath)){
         exec(`rm -rf ${gitPath}`, () => {});
     }
     console.log(`请查看${sName}项目根目录下,README.md文件,开始你的旅途吧!`);

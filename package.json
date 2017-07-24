@@ -1,6 +1,6 @@
 {
   "name": "react-structure-app",
-  "version": "2.0.5",
+  "version": "2.1.0",
   "description": "reqct类前端项目初始化工具",
   "main": "index.js",
   "scripts": {
