@@ -2,6 +2,7 @@
 
 var exec = require('child_process').exec;
 var fs = require('fs');
+var path = require('path');
 
 const GET_FILENAME_INCURRENT_DIR = (s) => {
     let files = fs.readdirSync(process.cwd());
@@ -45,6 +46,10 @@ const MAIN = async  () => {
     if(result === 1){
         console.log('抱歉,请查看package确认当前环境可以进行项目初始化...');
         return ;
+    }
+    let gitPath = `${sName}/.git`;
+    if(path.exists(gitPath)){
+        exec(`rm -rf ${gitPath}`, () => {});
     }
     console.log(`请查看${sName}项目根目录下,README.md文件,开始你的旅途吧!`);
 };
