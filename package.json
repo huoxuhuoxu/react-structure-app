@@ -1,7 +1,7 @@
 {
   "name": "react-structure-app",
-  "version": "2.1.0",
-  "description": "reqct类前端项目初始化工具",
+  "version": "3.0.0",
+  "description": "react类前端项目初始化工具",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
